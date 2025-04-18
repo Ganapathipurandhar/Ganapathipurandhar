@@ -1,13 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Portfolio Website</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purandhar Reddy - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <span class="logo">Purandhar Reddy</span>
+            <button class="menu-toggle" id="menuToggle">
+                <span class="menu-icon"></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Purandhar Reddy Ganapathi</h1>
+            <p>DevOps and Cloud Engineer</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary">Contact Me</a>
+                <a href="#experience" class="btn secondary">View Experience</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <p>Software Engineer skilled in designing, developing, and deploying scalable, robust systems while managing secure CI/CD pipelines. Adept at fostering collaboration between development and operations teams to enhance efficiency and streamline processes.</p>
+                    <div class="about-details">
+                        <div><strong>Education:</strong> Bachelor of Engineering - Electrical and Electronics Engineering</div>
+                        <div><strong>Certifications:</strong> AZ-400, AZ-104, DP-203</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-grid" id="experienceGrid"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-links">
+                        <a href="mailto:Purandharreddy67@gmail.com">
+                            <span class="icon">📧</span> Purandharreddy67@gmail.com
+                        </a>
+                        <a href="tel:+17345796006">
+                            <span class="icon">📞</span> (734) 579-6006
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername">
+                            <span class="icon">💼</span> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> Purandhar Reddy Ganapathi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
