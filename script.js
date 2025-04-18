@@ -14,12 +14,12 @@ const experiences = [
     {
         company: 'Nanosoft Technologies',
         role: 'Senior DevOps and Cloud Engineer',
-        period: 'Sep 2024 - Mar 2025',
+        period: 'Sep 2024 - present',
         image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80'
     },
     {
         company: 'Tata Consultancy Services – Prudential',
-        role: 'DevOps Cloud Engineer',
+        role: 'Cloud Engineer/DevOps',
         period: 'June 2022 - Aug 2024',
         image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80'
     },
