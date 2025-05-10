@@ -57,9 +57,4 @@
 </p>
 
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ganapathipurandhar&show_icons=true&locale=en" alt="Ganapathipurandhar" /></p>
 
----
-
-### Fun Fact:
-Sometimes I'm a night owl & sometimes an early bird! 🌙🌞
